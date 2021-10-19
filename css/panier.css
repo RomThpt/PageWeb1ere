@@ -1,0 +1,23 @@
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 98;
+} 
+.transparence{
+  background:transparent;
+  mix-blend-mode: multiply;
+  position: -webkit-sticky;
+  position: absolute;
+  top:25px;
+  right: 45%;
+  left:45%;
+}
+p{
+  text-align:center;
+  word-spacing: 2px;
+  font-size: 18px;
+  font-family:"Goudy Bookletter 1911", sans-serif;
+}

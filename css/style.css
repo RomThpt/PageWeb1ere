@@ -1,0 +1,139 @@
+
+header{
+    background:transparent;
+    position:sticky;
+    mix-blend-mode: multiply;
+}
+.icone_panier{
+    position: absolute;
+    top: 7px;
+    right:7px;
+    display: inline;
+    float: inline-end;
+    z-index: 2;
+    background-color: black;
+}
+
+.logo{
+    position: absolute; 
+    right: 45%;
+    left: 45%;
+}
+.body{
+    position: absolute;
+    top: 4%;
+}
+
+    .barre {
+        
+        inline-size: 90%;
+        margin-inline: auto;
+        max-inline-size: 48em;
+    }
+    
+    
+    
+    .sticky {
+        position: sticky;
+        will-change: transform;
+    }
+    
+    .sticky--top {
+        top: 0;
+    }
+    
+    * {
+        box-sizing: inherit;
+    }
+    
+    html {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.75;
+        margin: 0;
+        min-block-size: 100vh;
+    }
+    
+    
+    .header {
+        background-color: rgb(110, 104, 104);
+        padding-block: 1em;
+    }
+    
+    .header::after {
+        bottom: 0;
+        box-shadow: 0 0.0625em 0.5em blanchedalmond;
+        content: '';
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: opacity 0.3s;
+        z-index: -1;
+    }
+    
+    .header.est-actif::after {
+        opacity: 1;
+    }
+    
+    
+    .main {
+        padding-block: 6em;
+    }
+    
+    /* modules */
+    
+    h1 {
+        margin-block: 0 0.5em;
+    }
+    
+    /* modules 2 */
+    
+    .navigation__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navigation__list--inline {
+        display: flex;
+        gap: 1.5em;
+    }
+    
+    .navigation__link {
+        color: rgb(10, 10, 10);
+        display: block;
+        padding-inline: 1em;
+        text-decoration: none;
+        font-size: 110%;
+    }
+    
+    .navigation__link--est-actif {
+        background-color: rgb(189, 70, 70);
+        border-radius: 999em;
+        color: #fff;
+    }
+    
+    /* modules/paragraph*/
+    p {
+        margin-left: 10em;
+    }
+a:link {
+    color:black;
+    }
+/* lien visité */
+a:visited {
+    color:rgb(202, 198, 198);
+        }
+/* souris sur le lien */
+a:hover {
+    color:black;
+        }
+
+a:active {
+    color: #800000;
+        }
