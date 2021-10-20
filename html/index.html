@@ -17,57 +17,53 @@
 </head>
 
 <body style="background-color: blanchedalmond;">
-    <header>
+    <header id="header">
         <div class="barre_taches">
             <div class="icone_clique">
-                <!-- Icone à cliquer et compte-->
-                <a href="panier.html" class="lien_panier">
-                    <img src="../icon/panier.png" alt="Image de panier " title="Ouvrir votre panier"
-                        class="icone_panier" width="50" height="50" style=" mix-blend-mode: multiply"
+                <a href="panier.html">
+                    <img src="../icon/panier.png" alt="Image de panier " title="Ouvrir votre panier" id="icone_panier"
+                        width="40" height="40" style=" mix-blend-mode: multiply"
                         onmouseover="this.src='../icon/onmouseover_panier.jpg'"
-                        onmouseout="this.src='../icon/panier.png'"></a></button>
+                        onmouseout="this.src='../icon/panier.png'" class="position-absolute top-30 start-10"></a>
             </div>
         </div>
-        <div class="promo">
-            <a href="index.html"></a>
-        </div>
-        <header class="header sticky sticky--top js-header">
-
-            <div class="barre">
-                <nav>
-                    <ul class="nav1">
-                        <li class="nav-item dropdown">
-                                <a class="dropdown-item" href="#">HTML et CSS</a>
-                                <a class="dropdown-item" href="#">JavaScript</a>
-                                <a class="dropdown-item" href="#">PHP et MySQL</a>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link " href="#">Articles</a></li>
-                        <li class="nav-item"><a class="nav-link " href="#">Contact</a></li>
+        <div class="barre">
+            <nav class="navbar float-start">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdown1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Articles
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Composant</a></li>
+                        <li><a class="dropdown-item" href="#">Leds</a></li>
+                        <li><a class="dropdown-item" href="#">Bureau</a></li>
                     </ul>
-                </nav>
-
-            </div>
-
-        </header>
-
-        <main class="main">
-
-            <div class="grid">
-
-                <h1></h1>
-
-                <p></p>
-            </div>
-        </main>
-
-        <div class="body">
-            <div class="video_presentation">
-            </div>
+                </div>
+            </nav>
         </div>
-        <footer>
+        <div id="zorax">
+            <img src="../icon/zorax.png" alt="Zorax(icon du site)" height="50" width="170"
+                class="" id="logo">
+        </div>
+    </header>
 
-        </footer>
+    <main class="main">
+
+        <div class="grid">
+
+
+            <p></p>
+        </div>
+    </main>
+
+    <div class="body">
+        <div class="video_presentation">
+        </div>
+    </div>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
