@@ -1,6 +1,6 @@
 header{
 mix-blend-mode: multiply;
-color: rgb(229,211,184) !important;
+background-color: rgb(229,211,184) !important;
 }
 #header{
 color: rgb(229,211,184);
