@@ -22,7 +22,7 @@
 	--bs-gray-800: #343a40;
 	--bs-gray-900: #212529;
 	--bs-primary: #64a19d;
-	--bs-secondary: #7464a1;
+	--bs-secondary: #7f6ab9;
 	--bs-success: #67c29c;
 	--bs-info: #1cabc4;
 	--bs-warning: #e4c662;
@@ -155,6 +155,14 @@ main {
 		padding: 0.5rem 0;
 		color: rgba(255, 255, 255, 0.5);
 	}
+	#mainNav .navbar-brand:hover {
+		padding: 0.5rem 0;
+		color: rgba(255, 255, 255, 0.75);
+	}
+	#mainNav .navbar-brand:active {
+		padding: 0.5rem 0;
+		color: var(--bs-secondary);
+	}
 	#mainNav .nav-link {
 		transition: none;
 		padding: 2rem 1.5rem;
@@ -164,10 +172,10 @@ main {
 		color: rgba(255, 255, 255, 0.75);
 	}
 	#mainNav .nav-link:active {
-		color: var(--bs-pink);
+		color: var(--bs-secondary);
 	}
 	#mainNav.navbar-shrink {
-		background-color: #343a40;
+		background-color: #7f6ab917;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
 		color: rgba(255, 255, 255, 0.5);
@@ -198,7 +206,7 @@ main {
 	height: auto;
 	min-height: 35rem;
 	padding: 15rem 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -246,11 +254,6 @@ main {
 #h1{
 	background-color: rgba(20, 0, 134, 0.199);
 	border-radius: 5px;
-}
-#etape1 {
-	padding-right: 1rem;
-	text-align: center;
-	font-size: 10px;
 }
 
 #graphique_1{
