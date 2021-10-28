@@ -1,19 +1,6 @@
-function afficherImage( id)
-{
-    var divImage = document.getElementById('affichageImage');
-    
-    if (divImage.hasChildNodes()){
-        divImage.removeChild(node);
-    }
-    
-    var hrefImg = id +".jpg";
-    node = document.createElement('img');
-    node.id = id + "Image";
-    node.src = hrefImg;
-    node.alt = id;
-
-    divImage.appendChild(node);
-}
-const change = src => {
-    document.getElementById('main').src = src
-}
+function showPicture1() {
+    var sourceOfPicture = "../image/carte_graphique_msi.jpg";
+    var img = document.getElementByClass('picture')
+    img.src = sourceOfPicture.replace('90x90', '225x225');
+    img.style.display = "block";
+  } 
