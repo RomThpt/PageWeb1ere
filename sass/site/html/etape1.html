@@ -13,11 +13,23 @@
 		</script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+		</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+		</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+		</script>
 	<link rel="stylesheet" href="../css/etape1.css" type="text/css">
 	<script src="../java/etape1.js"></script>
 </head>
 
 <body class="bg-dark">
+
+	<!--Le header-->
 	<header id="mastead">
 
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -27,7 +39,7 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
 							aria-expanded="false" role="button" data-bs-toggle="dropdown">Etapes</a>
-						<div class="dropdown-menu bg-dark " aria-labelledby="dropdownMenuLink">
+						<div class="dropdown-menu bg-dark">
 							<a class="dropdown-item text-white-50 border-light" href="etape1.html">Etape 1</a>
 							<a class="dropdown-item text-white-50 border-light" href="etape2.html">Etape 2</a>
 							<a class="dropdown-item text-white-50 border-light" href="etape3.html">Etape 3</a>
@@ -44,7 +56,7 @@
 				<img class="image-top min-vh-80" alt="image de pc en fond" src="../image/pc_interieur.jpg">
 			</div>
 		</div>
-		<div name="top" class="container d-flex h-100
+		<div class="container d-flex h-100
 					align-items-center justify-content-center">
 			<div class="d-flex justify-content-center">
 				<div id="text_placement" class="text-center">
@@ -55,54 +67,279 @@
 			</div>
 		</div>
 	</header>
+
+
+	<!--Le contenu-->
 	<main id="etape1" class="bg-dark">
 		<div class="">
+			<!--Titre de l'étape-->
 			<h2 class="text-white-50">
 				Etape 1: Les pré-requis:
 			</h2>
 			<div class="mt-4">
-				<h3 class="text-white-50 flaot-left">Une carte graphique:</h3>
-				<p class="text-white-50 fs-6"><a class="text-reset"
-						href="https://www.amazon.com/s?k=carte+graphique&crid=4L06U2YDSUF3&sprefix=carte+gra%2Caps%2C358&ref=nb_sb_ss_ts-doa-p_10_9"
-						target="_blank">La
-						carte graphique</a> est un élément important dans un pc surtout dans un pc gamer.
-					<button class="btn-sm" type="button" width="20" height="20" title="Exemple de carte graphique"
-						onclick="showPicture1()" id="">Exemple</button>
-					<img src="../image/carte_graphique_msi.jpg"
-						alt="carte_graphique_msi" style="display:none;" class="picture" height="200" weight="200">
-				</p>
-				<h3 class="text-white-50 flaot-left">Une carte mère:</h3>
-				<p class="text-white-50 fs-6"><a class="text-reset"
-						href="https://www.amazon.com/s?k=carte+mere&dc&ref=a9_sc_1 target=" _blank"">La
-						cartes mère</a> est la base du pc c'est la dessus que l'on va rajouter tout les éléments</p>
-				<h3 class="text-white-50 flaot-left">De la mémoire vive ou de la ram:</h3>
-				<p class="text-white-50 fs-6"><a class="text-reset"
-						href="https://www.amazon.com/s?k=ram&ref=nb_sb_noss_2" target="_blank">La ram</a> </p>
-				<h3 class="text-white-50 flaot-left">Une alimentation:</h3>
-				<p class="text-white-50 fs-6"><a class="text-reset"
-						href="https://www.amazon.com/s?k=alimentation+pc&language=en_US&currency=EUR"
-						target="_blank">L'alimentation</a>
-				</p>
-				<h3 class="text-white-50 flaot-left">De la mémoire:</h3>
-				<p class="text-white-50 fs-6"><a class="text-reset"
-						href="https://www.amazon.fr/s?k=memoire+pc&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1W5I8C1XBTVXG&sprefix=memoire+p%2Caps%2C80&ref=nb_sb_noss"
-						target="_blank">La
-						mémoire</a> </p>
-				<h3 class="text-white-50 flaot-left">Un boitier</h3>
-				<p class="text-white-50 fs-6"><a class="text-reset"
-						href="https://www.amazon.fr/s?k=boitier+pc&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2MLEERYPT6E1T&sprefix=boitier+pc%2Caps%2C82&ref=nb_sb_noss"
-						target="_blank">Le
-						boitier</a> </p>
-				<h3 class="text-white-50 flaot-left">De la ventilation:</h3>
-				<p class="text-white-50 fs-6"><a class="text-reset"
-						href="https://www.amazon.fr/s?k=ventilation+pc+gamer&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=13XRDO5MNX59N&sprefix=ventilation+pc+gamer%2Caps%2C69&ref=nb_sb_noss"
-						target="_blank">La
-						ventilation
-					</a> </p>
+				<!--Premier article-->
+				<div class="">
+					<h3 class="text-white-50">Une carte graphique:</h3>
+					<p class="text-white-50 fs-6 d-sm-inline"><a class="text-reset"
+							href="https://www.amazon.com/s?k=carte+graphique&crid=4L06U2YDSUF3&sprefix=carte+gra%2Caps%2C358&ref=nb_sb_ss_ts-doa-p_10_9"
+							target="_blank">La
+							carte graphique</a> est un élément important dans un pc surtout dans un pc gamer.
+					</p>
+					<!-- Boutton pour lancer le modal -->
+					<button type="button" class="btn btn-secondary text-white-50" data-toggle="modal"
+						data-target="#exemple_graphique">
+						Exemple
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exemple_graphique" tabindex="-1" role="dialog" aria-hidden="true">
+
+						<div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+
+								<!-- Body du modal-->
+								<div class="modal-header text-white-50 fs-5 mt-2 justify-content-md-center pb-0">
+									<p>Voici un exemple de carte graphique</p>
+								</div>
+								<div class="modal-body">
+									<img id="image1" src="../image/carte_graphique_msi.jpg"
+										alt="Carte carte_graphique_msi" width="465" height="350" class="" />
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+										Retour
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--Deuxième article-->
+					<h3 class="text-white-50">Une carte mère:</h3>
+					<p class="text-white-50 fs-6 d-sm-inline"><a class="text-reset"
+							href="https://www.amazon.com/s?k=carte+mere&dc&ref=a9_sc_1" target="_blank">La
+							carte mère</a> est la base du pc c'est la dessus que l'on va rajouter tout les éléments</p>
+					<button type="button" class="btn btn-secondary text-white-50" data-toggle="modal"
+						data-target="#exemple_mere">
+						Exemple
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exemple_mere" tabindex="-1" role="dialog" aria-hidden="true">
+
+						<div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+
+								<!-- Body du modal-->
+								<div class="modal-header text-white-50 fs-5 mt-2 justify-content-md-center pb-0">
+									<p>Voici un exemple de carte graphique</p>
+								</div>
+								<div class="modal-body ">
+									<img id="image" src="../image/carte_graphique_msi.jpg" alt="Click on button"
+										width="300" height="250" />
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+										Retour
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--Troisième article-->
+					<h3 class="text-white-50">La mémoire vive/la ram:</h3>
+					<p class="text-white-50 fs-6 d-sm-inline"><a class="text-reset"
+							href="https://www.amazon.com/s?k=ram&ref=nb_sb_noss_2" target="_blank">La ram</a> est un des
+						éléments fondamentaux les plus importants de l'informatique. Il s'agit de l'espace de
+						stockage de données temporaire et ultra-rapide auquel un ordinateur doit pouvoir accéder
+						immédiatement ou dans les instants qui suivent. </p>
+					<button type="button" class="btn text-white-50" data-toggle="modal" data-target="#exemple_ram">
+						Exemple
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exemple_ram" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+						<div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+
+								<!-- Body du modal-->
+								<div class="modal-header text-white-50 fs-5 mt-2 justify-content-md-center pb-0">
+									<p>Voici un exemple de carte graphique</p>
+								</div>
+								<div class="modal-body ">
+									<img id="image" src="../image/carte_graphique_msi.jpg" alt="Click on button"
+										width="300" height="250" />
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+										Retour
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--Quatrième article-->
+					<h3 class="text-white-50">Une alimentation:</h3>
+					<p class="text-white-50 fs-6 d-sm-inline"><a class="text-reset"
+							href="https://www.amazon.com/s?k=alimentation+pc&language=en_US&currency=EUR"
+							target="_blank">L'alimentation</a> des éléments fondamentaux les plus importants de
+						l'informatique. Il s'agit de l'espace de stockage de données temporaire et ultra-rapide auquel
+						un ordinateur doit pouvoir accéder immédiatement ou dans les instants qui suivent.
+					</p>
+					<button type="button" class="btn text-white-50" data-toggle="modal" data-target="#exemple_alim">
+						Exemple
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exemple_alim" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+						<div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+
+								<!-- Body du modal-->
+								<div class="modal-header text-white-50 fs-5 mt-2 justify-content-md-center pb-0">
+									<p>Voici un exemple de carte graphique</p>
+								</div>
+								<div class="modal-body ">
+									<img id="image" src="../image/carte_graphique_msi.jpg" alt="Click on button"
+										width="300" height="250" />
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+										Retour
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--Cinquième article-->
+					<h3 class="text-white-50">De la mémoire:</h3>
+					<p class="text-white-50 fs-6 d-sm-inline"><a class="text-reset"
+							href="https://www.amazon.fr/s?k=memoire+pc&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1W5I8C1XBTVXG&sprefix=memoire+p%2Caps%2C80&ref=nb_sb_noss"
+							target="_blank">La
+							mémoire</a> permet de stocker tt les fichiers du Pc</p>
+					<button type="button" class="btn text-white-50" data-toggle="modal" data-target="#exemple_ssd">
+						Exemple
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exemple_ssd" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+						<div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+
+								<!-- Body du modal-->
+								<div class="modal-header text-white-50 fs-5 mt-2 justify-content-md-center pb-0">
+									<p>Voici un exemple de carte graphique</p>
+								</div>
+								<div class="modal-body ">
+									<img id="image" src="../image/carte_graphique_msi.jpg" alt="Click on button"
+										width="300" height="250" />
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+										Retour
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--Sixième article-->
+					<h3 class="text-white-50">Un boitier</h3>
+					<p class="text-white-50 fs-6 d-sm-inline"><a class="text-reset"
+							href="https://www.amazon.fr/s?k=boitier+pc&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2MLEERYPT6E1T&sprefix=boitier+pc%2Caps%2C82&ref=nb_sb_noss"
+							target="_blank">Le
+							boitier</a> est le squellette du pc </p>
+					<button type="button" class="btn text-white-50" data-toggle="modal" data-target="#exemple_boit">
+						Exemple
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exemple_boit" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+						<div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+
+								<!-- Body du modal-->
+								<div class="modal-header text-white-50 fs-5 mt-2 justify-content-md-center pb-0">
+									<p>Voici un exemple de carte graphique</p>
+								</div>
+								<div class="modal-body ">
+									<img id="image" src="../image/carte_graphique_msi.jpg" alt="Click on button"
+										width="300" height="250" />
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+										Retour
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<!--Septieme article-->
+					<h3 class="text-white-50">De la ventilation:</h3>
+					<p class="text-white-50 fs-6 d-sm-inline"><a class="text-reset"
+							href="https://www.amazon.fr/s?k=ventilation+pc+gamer&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=13XRDO5MNX59N&sprefix=ventilation+pc+gamer%2Caps%2C69&ref=nb_sb_noss"
+							target="_blank">La ventilation
+						</a>n'est pas obligatoire mais elle est consiller afin de limiter les températures des
+						composants </p>
+					<button type="button" class="btn btn-secondary text-white-50" data-toggle="modal"
+						data-target="#exemple_graphique">
+						Exemple
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exemple_graphique" tabindex="-1" role="dialog" aria-hidden="true">
+
+						<div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+
+								<!-- Body du modal-->
+								<div class="modal-header text-white-50 fs-5 mt-2 justify-content-md-center pb-0">
+									<p>Voici un exemple de carte graphique</p>
+								</div>
+								<div class="modal-body">
+									<img id="image1" src="../image/carte_graphique_msi.jpg"
+										alt="Carte carte_graphique_msi" width="465" height="350" class="" />
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+										Retour
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<section>
-
+			<div>
+				<h3>h</h3>
+			</div>
 		</section>
 	</main>
 

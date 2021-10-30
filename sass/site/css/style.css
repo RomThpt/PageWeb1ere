@@ -148,7 +148,7 @@ main {
 		padding-top: 0;
 		padding-bottom: 0;
 		border-bottom: none;
-		background-color: transparent;
+		background-color: #251a466e;
 		transition: background-color 0.3s ease-in-out;
 	}
 	#mainNav .navbar-brand {
@@ -175,7 +175,7 @@ main {
 		color: var(--bs-secondary);
 	}
 	#mainNav.navbar-shrink {
-		background-color: #7f6ab917;
+		background-color: transparent;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
 		color: rgba(255, 255, 255, 0.5);
@@ -186,15 +186,13 @@ main {
 		border-bottom: 0.25rem solid transparent;
 	}
 	#mainNav.navbar-shrink .nav-link:hover {
-		color: #64a19d;
+		color: #7f6ab946;
 	}
 	#mainNav.navbar-shrink .nav-link:active {
-		color: #467370;
+		color: #3f3577;
 	}
 	#mainNav.navbar-shrink .nav-link.active {
-		color: #64a19d;
-		outline: none;
-		border-bottom: 0.25rem solid #64a19d;
+		color: var(--bs-secondary);
 	}
 }
 .dropdown-item:hover{
@@ -229,36 +227,11 @@ main {
 	font-size: 1rem;
 }
 
-@media (min-width: 768px) {
-	.masthead h1, .masthead .h1 {
-		font-size: 4rem;
-		line-height: 4rem;
-	}
-}
-
-@media (min-width: 992px) {
-	.masthead {
-		height: 100vh;
-		padding: 0;
-	}
-	.masthead h1, .masthead .h1 {
-		font-size: 6.5rem;
-		line-height: 6.5rem;
-		letter-spacing: 0.8rem;
-	}
-	.masthead h2, .masthead .h2 {
-		max-width: 30rem;
-		font-size: 1.25rem;
-	}
-}
 #h1{
 	background-color: rgba(20, 0, 134, 0.199);
 	border-radius: 5px;
 }
 
-#graphique_1{
-	mix-blend-mode: multiply;
-}
 #bg-img{
 	padding-bottom: 0% !important;
 

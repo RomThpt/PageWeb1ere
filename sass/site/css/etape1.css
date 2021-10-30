@@ -112,7 +112,7 @@ main {
 
 #mainNav {
 	min-height: 3.5rem;
-	background-color: #fff;
+	background-color: #251a466e;
 }
 
 #mainNav .navbar-toggler {
@@ -148,7 +148,7 @@ main {
 		padding-top: 0;
 		padding-bottom: 0;
 		border-bottom: none;
-		background-color: transparent;
+		background-color: #251a466e;
 		transition: background-color 0.3s ease-in-out;
 	}
 	#mainNav .navbar-brand {
@@ -175,7 +175,7 @@ main {
 		color: var(--bs-secondary);
 	}
 	#mainNav.navbar-shrink {
-		background-color: #7f6ab917;
+		background-color:transparent;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
 		color: rgba(255, 255, 255, 0.5);
@@ -186,15 +186,10 @@ main {
 		border-bottom: 0.25rem solid transparent;
 	}
 	#mainNav.navbar-shrink .nav-link:hover {
-		color: #64a19d;
+		color: #7f6ab946;
 	}
 	#mainNav.navbar-shrink .nav-link:active {
-		color: #467370;
-	}
-	#mainNav.navbar-shrink .nav-link.active {
-		color: #64a19d;
-		outline: none;
-		border-bottom: 0.25rem solid #64a19d;
+		color: var(--bs-secondary);
 	}
 }
 .dropdown-item:hover{
@@ -258,6 +253,7 @@ main {
 
 #bg-img{
 	padding-bottom: 0% !important;
+
 }
 #text_placement{
 	position: absolute;
@@ -267,13 +263,19 @@ main {
 	padding-right: 1rem;
 	font-size: 10px;
 }
-button{
-	background-color: #7f6ab946 ;
-	color: rgba(255, 255, 255, 0.5);
-}
+
 #h2{
 	background-color: rgba(20, 0, 134, 0.199) ;
 }
-.picture{
-	float: right;
+.modal-header{
+	background-color: #7f6ab917;
+}
+.btn{
+	background-color: var(--bs-secondary);
+}
+.btn:active{
+	background-color: var(--bs-gray);
+}
+.btn:hover{
+	background-color: var(--bs-purple);
 }
