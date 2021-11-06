@@ -4,8 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Ioann Inizan, Romain Thépaut" />
-	<meta name="description" content="Site qui vends des choses en rapport
-			avec les animes" />
+	<meta name="description" content="Site qui apprend à monter des pc" />
 	<link rel="shortcut icon" type="image/x-icon" href="../icon/icon_fav.jpg" />
 	<title>Zorax</title>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -13,7 +12,17 @@
 		</script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/etape1.css" type="text/css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+		</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+		</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+		</script>
+	<link rel="stylesheet" href="../css/etape2.css" type="text/css">
 	<script src="../java/etape1.js"></script>
 </head>
 
@@ -31,7 +40,6 @@
 							<a class="dropdown-item text-white-50 border-light" href="etape1.html">Etape 1</a>
 							<a class="dropdown-item text-white-50 border-light" href="etape2.html">Etape 2</a>
 							<a class="dropdown-item text-white-50 border-light" href="etape3.html">Etape 3</a>
-							<a class="dropdown-item text-white-50 border-light" href="etape4.html">Etape 4</a>
 						</div>
 					</li>
 					<li class="nav-item"><a class="nav-link " href="mailto:zorax@yopmail.com"
@@ -50,7 +58,7 @@
 				<div id="text_placement" class="text-center">
 					<h1 class="mx-auto my-0 text-uppercase text-white" id="h1">Etape 2
 					</h1>
-					<h2 id="h2" class="text-white mx-auto mt-2 mb-5 fs-5">Assemblé les composants</h2>
+					<h2 id="h2" class="text-white mx-auto mt-2 mb-5 fs-5">Assembler les composants</h2>
 				</div>
 			</div>
 		</div>
@@ -65,46 +73,96 @@
 			</h2>
 		</div>
 		<section>
-			<div class="text-white-50">
-			<p>L'idéal quand on travaille sur ces composants extrêmement fragiles est de porter un bracelet antistatique. L'électricité statique est faible, mais elle est suffisante pour endommager un composant.
-				À défaut de bracelet, branchez votre boitier d'alimentation sur la prise, mais sans allumer l'ordinateur. Votre machine est ainsi à la terre, le simple fait de toucher une partie métallique du boitier vous déchargera de toute l'électricité statique.
-			<hr>
-		
-Ouvrez le boitier. Dévissez ou désengagez les panneaux protecteurs de l’unité centrale.
+			<div class="text-white-50 fs-5" id="texte">
+				<p>L'idéal quand on travaille sur ces composants extrêmement fragiles est de porter un bracelet
+					antistatique. L'électricité statique est faible, mais elle est suffisante pour endommager un
+					composant.
+					À défaut de bracelet, branchez votre boitier d'alimentation sur la prise, mais sans allumer
+					l'ordinateur. Votre machine est ainsi à la terre, le simple fait de toucher une partie métallique du
+					boitier vous déchargera de toute l'électricité statique.
+					<hr>
 
-Installez l'alimentation électrique. Deux cas de figure se présentent : certains boitiers sont déjà équipés d'une alimentation, d'autres sont vendus nus, il faut donc installer le boitier d'alimentation. Ces petits appareils ont un sens d'installation, facilement repérable par la prise et le ventilateur qui doit ouvrir sur un volume libre.
-La position de l'alimentation électrique dans le boitier fait débat. Longtemps, elle fut placée en haut du boitier, mais aujourd'hui, certains préfèrent la mettre au bas du boitier.
-<hr>
-Installez des composants sur la carte mère. Il est plus commode de les installer quand la carte mère sort de son emballage, une unité centrale est un espace réduit.
-Après avoir enlevé les protections (levier, capot et protection de transport) du support du processeur sur la carte mère, engagez-y le processeur en respectant les détrompeurs. Rabattez le capot métallique et verrouillez avec le levier [2] .
-Insérez les barrettes de mémoire vive sur la carte mère en veillant à les tenir par la tranche. Il n'y a qu'une seule façon de les insérer dans leurs logements.
-Connectez le boitier d'alimentation au port d'alimentation de la carte mère.
-Repérez (mais n'y connectez encore aucun câble) le port SATA de la carte mère. Vous l'utiliserez pour connecter le disque dur à la carte
-<hr>
-Appliquez éventuellement un peu de pâte thermique. Déposez sur le processeur à l'endroit prévu un peu de pâte thermique (de la taille d'un grain de riz). Si vous en mettez trop, la pâte va déborder et certains composants pourraient alors entrer en court-circuit. Si vous deviez un jour revendre votre carte mère, vous risqueriez d'avoir des surprises.
-Certains processeurs sont livrés avec un dissipateur thermique à part. Ce dernier n'a pas besoin de pâte thermique. Il suffit de faire correspondre ergots et trous, et d'appuyer fortement pour que la colle déjà appliquée en usine joue son rôle 
-<hr>Installez le dissipateur thermique. Il existe tant de modèles différents que le mieux est de lire et de suivre les consignes d'installation du fabricant.
-De nombreux dissipateurs se posent d'abord sur le processeur, puis quand les ergots sont bien en place, ils viennent s'encastrer dans la carte mère.
-D'autres dissipateurs, d'occasion souvent, sont munis de petits leviers qu'il suffit d'abaisser pour fixer la pièce.
-Passez cette étape si votre processeur est déjà pourvu d'un dissipateur thermique.
-<hr>Préparez votre boitier. Pour travailler plus à l'aise, il convient d'enlever un certain nombre de panneaux du boitier.
-Pour le disque dur, de deux choses l'une : ou le boitier renferme déjà des glissières ou elles sont à part. Dans ce dernier cas, en fonction de ce que vous allez installer, vissez les glissières à la hauteur qui vous convient.
-En général, après l'alimentation, il est convenable d'installer le ou les ventilateurs. Pour cette opération, suivez à la lettre les instructions du fabricant. <hr>Fixez la carte mère. Vous y avez fixé tous les composants que vous vouliez, il ne reste plus qu'à l'installer dans le boitier. Repérez l'emplacement de la carte. Vissez sur le boitier les quatre entretoises qui vont accueillir les vis de fixation de la carte. À l'arrière du boitier, fixez la grille de protection de la connectique. Poussez la carte mère contre cette grille et mettez les vis de maintien de la carte mère.
-N'utilisez que les vis fournies avec la carte mère. Vous devez visser sans forcer ni durant ni à la fin du vissage : la carte ne doit plus bouger et la connectique est parfaitement en place.
-<hr>Brancher les différents connecteurs de la carte mère. Ils sont tous sur une même ligne, en général à l'opposé de la grille de connectique. Il n'y a pas d'ordre particulier, si ce n'est de commencer par les câbles les plus difficiles à mettre. Branchez les divers connecteurs, comme les ports USB, les interrupteurs de mise en route et de réinitialisation, le port pour le câble audio… Tout est indiqué précisément dans la notice livrée avec la carte mère.
-Tous ces connecteurs n'ont qu'un seul sens de montage (détrompeur). Aussi est-il inutile (et dommageable) de forcer pour les fixer. S'ils ne rentrent pas, c'est qu'ils ne sont pas dans le bon sens. <hr>Installez le disque dur. L'installation dépend du modèle de boitier, mais vous devriez vite vous y retrouver, l'opération ne varie guère.
-Retirez le panneau frontal du boitier. Si vous devez installer un lecteur optique, il se loge généralement sur le haut de l’unité centrale.
-Insérez le disque dur dans son logement (en général, il est plutôt dans la partie haute).
-Fixez le disque dur aux montants avec les vis fournies.
-Branchez le câble du disque dur SATA sur le port SATA de la carte mère.
-Assurez l'alimentation électrique de certains composants. Parmi tous les composants, certains doivent être alimentés en électricité basse tension fournie par le boitier central. Vous devez donc tous les brancher sur les différents ports de l'alimentation centrale. Parmi ces composants, citons :
-la carte mère
-la carte graphique
-le disque dur <hr>Terminez l'assemblage. Avant de refermer, vérifiez tous les composants et tous les branchements. Faites attention à ce qu'aucun câble ne soit coincé lors du remontage des panneaux. Vous ne devez jamais forcer lors d'un assemblage, les éléments s'emboitent naturellement, sinon ils ne sont pas adaptés.
-Si vous devez installer un système de refroidissement, le mieux est de regarder dans la notice d'installation comment et quand le monter dans votre unité centrale.
-Les panneaux du boitier soit se glissent dans des rainures prévues à cet effet soit se vissent aux montants d'angle et transversaux.
-<hr>
-</p></div>
+					Ouvrez le boitier. Dévissez ou désengagez les panneaux protecteurs de l’unité centrale.
+
+					Installez l'alimentation électrique. Deux cas de figure se présentent : certains boitiers sont déjà
+					équipés d'une alimentation, d'autres sont vendus nus, il faut donc installer le boitier
+					d'alimentation. Ces petits appareils ont un sens d'installation, facilement repérable par la prise
+					et le ventilateur qui doit ouvrir sur un volume libre.
+					La position de l'alimentation électrique dans le boitier fait débat. Longtemps, elle fut placée en
+					haut du boitier, mais aujourd'hui, certains préfèrent la mettre au bas du boitier.
+					<hr>
+					Installez des composants sur la carte mère. Il est plus commode de les installer quand la carte mère
+					sort de son emballage, une unité centrale est un espace réduit.
+					Après avoir enlevé les protections (levier, capot et protection de transport) du support du
+					processeur sur la carte mère, engagez-y le processeur en respectant les détrompeurs. Rabattez le
+					capot métallique et verrouillez avec le levier [2] .
+					Insérez les barrettes de mémoire vive sur la carte mère en veillant à les tenir par la tranche. Il
+					n'y a qu'une seule façon de les insérer dans leurs logements.
+					Connectez le boitier d'alimentation au port d'alimentation de la carte mère.
+					Repérez (mais n'y connectez encore aucun câble) le port SATA de la carte mère. Vous l'utiliserez
+					pour connecter le disque dur à la carte
+					<hr>
+					Appliquez éventuellement un peu de pâte thermique. Déposez sur le processeur à l'endroit prévu un
+					peu de pâte thermique (de la taille d'un grain de riz). Si vous en mettez trop, la pâte va déborder
+					et certains composants pourraient alors entrer en court-circuit. Si vous deviez un jour revendre
+					votre carte mère, vous risqueriez d'avoir des surprises.
+					Certains processeurs sont livrés avec un dissipateur thermique à part. Ce dernier n'a pas besoin de
+					pâte thermique. Il suffit de faire correspondre ergots et trous, et d'appuyer fortement pour que la
+					colle déjà appliquée en usine joue son rôle
+					<hr>Installez le dissipateur thermique. Il existe tant de modèles différents que le mieux est de
+					lire et de suivre les consignes d'installation du fabricant.
+					De nombreux dissipateurs se posent d'abord sur le processeur, puis quand les ergots sont bien en
+					place, ils viennent s'encastrer dans la carte mère.
+					D'autres dissipateurs, d'occasion souvent, sont munis de petits leviers qu'il suffit d'abaisser pour
+					fixer la pièce.
+					Passez cette étape si votre processeur est déjà pourvu d'un dissipateur thermique.
+					<hr>Préparez votre boitier. Pour travailler plus à l'aise, il convient d'enlever un certain nombre
+					de panneaux du boitier.
+					Pour le disque dur, de deux choses l'une : ou le boitier renferme déjà des glissières ou elles sont
+					à part. Dans ce dernier cas, en fonction de ce que vous allez installer, vissez les glissières à la
+					hauteur qui vous convient.
+					En général, après l'alimentation, il est convenable d'installer le ou les ventilateurs. Pour cette
+					opération, suivez à la lettre les instructions du fabricant.
+					<hr>Fixez la carte mère. Vous y avez fixé tous les composants que vous vouliez, il ne reste plus
+					qu'à l'installer dans le boitier. Repérez l'emplacement de la carte. Vissez sur le boitier les
+					quatre entretoises qui vont accueillir les vis de fixation de la carte. À l'arrière du boitier,
+					fixez la grille de protection de la connectique. Poussez la carte mère contre cette grille et mettez
+					les vis de maintien de la carte mère.
+					N'utilisez que les vis fournies avec la carte mère. Vous devez visser sans forcer ni durant ni à la
+					fin du vissage : la carte ne doit plus bouger et la connectique est parfaitement en place.
+					<hr>Brancher les différents connecteurs de la carte mère. Ils sont tous sur une même ligne, en
+					général à l'opposé de la grille de connectique. Il n'y a pas d'ordre particulier, si ce n'est de
+					commencer par les câbles les plus difficiles à mettre. Branchez les divers connecteurs, comme les
+					ports USB, les interrupteurs de mise en route et de réinitialisation, le port pour le câble audio…
+					Tout est indiqué précisément dans la notice livrée avec la carte mère.
+					Tous ces connecteurs n'ont qu'un seul sens de montage (détrompeur). Aussi est-il inutile (et
+					dommageable) de forcer pour les fixer. S'ils ne rentrent pas, c'est qu'ils ne sont pas dans le bon
+					sens.
+					<hr>Installez le disque dur. L'installation dépend du modèle de boitier, mais vous devriez vite vous
+					y retrouver, l'opération ne varie guère.
+					Retirez le panneau frontal du boitier. Si vous devez installer un lecteur optique, il se loge
+					généralement sur le haut de l’unité centrale.
+					Insérez le disque dur dans son logement (en général, il est plutôt dans la partie haute).
+					Fixez le disque dur aux montants avec les vis fournies.
+					Branchez le câble du disque dur SATA sur le port SATA de la carte mère.
+					Assurez l'alimentation électrique de certains composants. Parmi tous les composants, certains
+					doivent être alimentés en électricité basse tension fournie par le boitier central. Vous devez donc
+					tous les brancher sur les différents ports de l'alimentation centrale. Parmi ces composants, citons
+					:
+					la carte mère
+					la carte graphique
+					le disque dur
+					<hr>Terminez l'assemblage. Avant de refermer, vérifiez tous les composants et tous les branchements.
+					Faites attention à ce qu'aucun câble ne soit coincé lors du remontage des panneaux. Vous ne devez
+					jamais forcer lors d'un assemblage, les éléments s'emboitent naturellement, sinon ils ne sont pas
+					adaptés.
+					Si vous devez installer un système de refroidissement, le mieux est de regarder dans la notice
+					d'installation comment et quand le monter dans votre unité centrale.
+					Les panneaux du boitier soit se glissent dans des rainures prévues à cet effet soit se vissent aux
+					montants d'angle et transversaux.
+					<hr>
+				</p>
+			</div>
 		</section>
 	</main>
 

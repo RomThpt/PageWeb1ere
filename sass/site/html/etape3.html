@@ -4,8 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Ioann Inizan, Romain Thépaut" />
-	<meta name="description" content="Site qui vends des choses en rapport
-			avec les animes" />
+	<meta name="description" content="Site qui apprend à monter des pc" />
 	<link rel="shortcut icon" type="image/x-icon" href="../icon/icon_fav.jpg" />
 	<title>Zorax</title>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -13,8 +12,17 @@
 		</script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/etape1.css" type="text/css">
-	<script src="../java/etape1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+		</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+		</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+		</script>
+	<link rel="stylesheet" href="../css/etape3.css" type="text/css">
+	<script src="../java/etape3.js"></script>
 </head>
 
 <body class="bg-dark">
@@ -31,7 +39,6 @@
 							<a class="dropdown-item text-white-50 border-light" href="etape1.html">Etape 1</a>
 							<a class="dropdown-item text-white-50 border-light" href="etape2.html">Etape 2</a>
 							<a class="dropdown-item text-white-50 border-light" href="etape3.html">Etape 3</a>
-							<a class="dropdown-item text-white-50 border-light" href="etape4.html">Etape 4</a>
 						</div>
 					</li>
 					<li class="nav-item"><a class="nav-link " href="mailto:zorax@yopmail.com"
@@ -50,7 +57,7 @@
 				<div id="text_placement" class="text-center">
 					<h1 class="mx-auto my-0 text-uppercase text-white" id="h1">Etape 3
 					</h1>
-					<h2 id="h2" class="text-white mx-auto mt-2 mb-5 fs-5">Le cable management</h2>
+					<h2 id="h2" class="text-white mx-auto mt-2 mb-5 fs-5">L'OS</h2>
 				</div>
 			</div>
 		</div>
@@ -58,15 +65,45 @@
 	<main id="etape1" class="bg-dark">
 		<div class="">
 			<h2 class="text-white-50">
-				Etape 3: Le cable management:
+				Etape 3: Installation de l'OS:
 			</h2>
-			<div class="mt-4">
-				
-			</div>
 		</div>
 		<section>
-
+			<div class="text-white-50 justify-content-center" id="intro">
+				<h3 class="fs-4">Quels OS installer?</h3>
+				<p class="fs-6">Sur ce pc on pourra choisir entre linux ou windows :
+				</p>
+			</div>
 		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 mb-4">
+						<a href="windows.html">
+							<div class="card border-light text-white bg-dark">
+								<img src="../image/windows.png" class="card-img" alt="..." height="550" width="250">
+								<div class="card-header">
+									<h5 class="card-text">Windows 10</h5>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 mb-4">
+						<a href="https://www.educba.com/install-linux/">
+							<div class="card border-light text-white bg-dark" style="width:500px;">
+								<img src="../image/linux.png" class="card-img" alt="..." height="550" width="550">
+								<div class="card-header">
+									<h5 class="card-text">Linux</h5>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<p class="fs-5 text-white-50">Linux sera plus pour le déveollopement web ou pour les petites configurations et
+			priviligie donc
+			la facilté d'acces au fichiers alors que windows priviligie plutôt l'élégance.</p>
 	</main>
 
 	<footer class="footer bg-black small text-center text-white-50">

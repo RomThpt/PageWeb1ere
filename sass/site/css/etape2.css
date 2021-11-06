@@ -259,23 +259,16 @@ main {
 	position: absolute;
 	top: 40%;
 }
+
 #etape1 {
 	padding-right: 1rem;
 	font-size: 10px;
 }
 
 #h2{
-	background-color: rgba(20, 0, 134, 0.199) ;
+	background-color: rgba(20, 0, 134, 0.2) ;
 }
-.modal-header{
-	background-color: #7f6ab917;
-}
-.btn{
-	background-color: var(--bs-secondary);
-}
-.btn:active{
-	background-color: var(--bs-gray);
-}
-.btn:hover{
-	background-color: var(--bs-purple);
+
+#text{
+    font-size: medium;
 }

@@ -265,17 +265,17 @@ main {
 }
 
 #h2{
-	background-color: rgba(20, 0, 134, 0.199) ;
+	background-color: rgba(20, 0, 134, 0.2) ;
 }
-.modal-header{
-	background-color: #7f6ab917;
+
+#text{
+    font-size: medium;
 }
-.btn{
-	background-color: var(--bs-secondary);
+.card-text{
+	justify-content: center !important;
+	transition: transform .2s;
+	text-decoration:none !important;
 }
-.btn:active{
-	background-color: var(--bs-gray);
-}
-.btn:hover{
-	background-color: var(--bs-purple);
+.card:hover{
+	transform: scale(1.02);
 }
