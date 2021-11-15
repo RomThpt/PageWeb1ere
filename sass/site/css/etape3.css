@@ -114,11 +114,17 @@ main {
 	min-height: 3.5rem;
 	background-color: #7464a165;
 }
+#MainNav .navbar{
+	background-color: transparent;
+}
+#mainNav .nav-link{
+	color: rgba(255, 255, 255, 0.5);
+}
 
 #mainNav .navbar-toggler {
 	font-size: 80%;
 	padding: 0.75rem;
-	color: #64a19d;
+	color: #b9b9b9;
 	border: 1px solid #64a19d;
 }
 
@@ -127,7 +133,7 @@ main {
 }
 
 #mainNav .navbar-brand {
-	color: #000;
+	color:rgba(255, 255, 255, 0.5);
 	font-weight: 700;
 	padding: 0.9rem 0;
 }
@@ -161,7 +167,7 @@ main {
 	}
 	#mainNav .navbar-brand:active {
 		padding: 0.5rem 0;
-		color: var(--bs-secondary);
+		color: var(--bs-gray);
 	}
 	#mainNav .nav-link {
 		transition: none;
@@ -172,7 +178,7 @@ main {
 		color: rgba(255, 255, 255, 0.75);
 	}
 	#mainNav .nav-link:active {
-		color: var(--bs-secondary);
+		color: var(--bs-gray);
 	}
 	#mainNav.navbar-shrink {
 		background-color:#3b2c6309;
@@ -189,7 +195,7 @@ main {
 		color: #7f6ab946;
 	}
 	#mainNav.navbar-shrink .nav-link:active {
-		color: var(--bs-secondary);
+		color: var(--bs-gray);
 	}
 }
 .dropdown-item:hover{
